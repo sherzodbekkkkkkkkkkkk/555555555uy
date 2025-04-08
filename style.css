@@ -1,83 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body {
-    background-color: #a3dbe7;
-    max-width: 1000px;
+  margin: 0;
 }
-.container {
-    background-color: #3672f2;
-    width: 500px;
-    height: 530px;
-    border-radius: 10px;
-    margin-left: 500px;
-    padding: 40px;
-    /* margin: 100px; */
-    border: solid 1px black;
-    margin-top: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+aside {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: aquamarine;
+  padding: 10px;
+  position: fixed;
+}
 
+header {
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  left: 200px;
+  background-color: rgb(78, 204, 20);
+  padding: 10px;
+  /* margin-bottom: 1px; */
+  
 }
-.container2 {
-    background-color: aquamarine;
-    height: 460px;
-    padding: 35px;
-    font-size: 22px;
-    border-radius: 10px;
+
+ul li {
+  list-style: none;
+  
+  
+ 
 }
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+
+.main {
+  position: relative;
+  top: 50px;
+  left: 250px;
+
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  overflow: auto;
 }
-input {
-    border: none;
-    border-bottom: 2px solid #333;
-    outline: none;
-    padding: 8px 4px;
-    font-size: 16px;
-    background-color: transparent;
-    width: 100%;
-    margin-bottom: 20px;
-}
-button {
-    padding: 10px 16px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 25px;
-    cursor: pointer;
-    
-    margin-top: 10px;
-    width: 100%;
-}
-button:hover {
-    
-    background-color: #0056b3;
-}
-button:active {
-    transform: scale(0.99);
+/* h1 {
+  position: relative;
+  top: 160px;
+  left: 250px;
+  width: 100%;
 }
 p {
-    margin-top: 25px;
-    margin-left: px;
-}
-a {
-    margin-left: 72px;
-}
-
-
-/* .container2 {
-    width: 600px;
-   
-    border: solid 1px black;
-    background-color: #24bed9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    height: 60vh;
-    margin-right: 500px;
-    
+  position: relative;
+  top: 160px;
+  left: 250px;
 } */
